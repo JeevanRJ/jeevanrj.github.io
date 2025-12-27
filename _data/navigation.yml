@@ -8,27 +8,29 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-   - title: "Research"
+
+
+  - title: "Research"
     url: /research/
-    
+
   - title: "Publications"
     url: /publications/
-    
+
   - title: "Talks"
-    url: /talks/
-    
+    url: /talks/    
+
   - title: "Teaching"
-    url: /teaching/
-    
+    url: /teaching/ 
+
   - title: "Portfolio"
     url: /portfolio/
-    
+        
   - title: "Blog Posts"
     url: /year-archive/
-    
+
   - title: "CV"
     url: /files/Jeevan_Jayasuriya_Resume.pdf
-    
+
   - title: "Awards"
     url: /awards/
     
