@@ -1,10 +1,10 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv-json/
+permalink: /files/Jeevan_Jayasuriya_Resume.pdf
 author_profile: false
 redirect_from:
-  - /resume-json
+  - /resume  <!-- if you have old cv , we can give the name here to redirect to new cv -->
 ---
 
 {% include base_path %}
