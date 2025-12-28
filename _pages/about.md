@@ -10,7 +10,8 @@ redirect_from:
 Ph.D. Candidate, Industrial & Systems Engineering
 University of Wisconsin–Madison
 
-![Jeevan won a batminton champianshi at Clarkson University](./images/untitled_design(23).png){: .align-right width="300px"}
+<img src="/images/badminton_win.png" alt="Badminton championship win at Clarkson University" width="300" style="float: right; margin-left: 15px;">
+
 
 👨‍🎓 I am a Ph.D. candidate in Industrial & Systems Engineering and a graduate researcher in the [Neuroergonomics Lab](https://neuroergolab.org/) at the [University of Wisconsin–Madison](https://www.wisc.edu/).I am advised by [Dr. Ranjana Mehta](https://engineering.wisc.edu/directory/profile/ranjana-mehta/). My research focuses on human factors, neuroergonomics, biomechanics, and human-in-the-loop systems, with an emphasis on understanding how fatigue, workload, and environmental stressors affect human performance.
 
