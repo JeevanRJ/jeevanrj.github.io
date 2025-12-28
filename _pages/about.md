@@ -11,12 +11,11 @@ Ph.D. Candidate, Industrial & Systems Engineering
 University of Wisconsin–Madison
 
 [<figure style="float:right; width:100px; margin-left:15px;">
-  <img src="/images/badminton_win.png" alt="Badminton championship win">
+  <img src="/images/bio-photo-2.jpg" alt="Badminton championship win">
   <figcaption style="font-size:0.85em; text-align:center;">
     Badminton championship win at Clarkson University
   </figcaption>
-</figure>](https://jeevanrj.github.io/Jeevan-Jayasuriya.github.io/images/badminton_win.png
-)
+</figure>]
 
 
 👨‍🎓 I am a Ph.D. candidate in Industrial & Systems Engineering and a graduate researcher in the [Neuroergonomics Lab](https://neuroergolab.org/) at the [University of Wisconsin–Madison](https://www.wisc.edu/).I am advised by [Dr. Ranjana Mehta](https://engineering.wisc.edu/directory/profile/ranjana-mehta/). My research focuses on human factors, neuroergonomics, biomechanics, and human-in-the-loop systems, with an emphasis on understanding how fatigue, workload, and environmental stressors affect human performance.
