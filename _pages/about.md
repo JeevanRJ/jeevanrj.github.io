@@ -10,7 +10,7 @@ redirect_from:
 Ph.D. Candidate, Industrial & Systems Engineering
 University of Wisconsin–Madison
 
-<figure style="float:right; width:300px; margin-left:15px;">
+<figure style="float:right; width:100px; margin-left:15px;">
   <img src="/images/badminton_win.png" alt="Badminton championship win">
   <figcaption style="font-size:0.85em; text-align:center;">
     Badminton championship win at Clarkson University
