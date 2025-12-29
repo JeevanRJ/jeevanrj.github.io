@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Hello there, I'm Jeevan Jayasuriya!"
+title: "👋 Hello there, I’m Jeevan Jayasuriya!"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,16 +9,15 @@ redirect_from:
 
 Ph.D. Candidate, Industrial & Systems Engineering
 University of Wisconsin–Madison
+• Neuroergonomics • Human Factors • Human–Machine Interaction 
 
 ****
 
-👨‍🎓 I am a Ph.D. candidate in Industrial & Systems Engineering and a graduate researcher in the [Neuroergonomics Lab](https://neuroergolab.org/) at the [University of Wisconsin–Madison](https://www.wisc.edu/).I am advised by [Dr. Ranjana Mehta](https://engineering.wisc.edu/directory/profile/ranjana-mehta/). My research focuses on human factors, neuroergonomics, biomechanics, and human-in-the-loop systems, with an emphasis on understanding how fatigue, workload, and environmental stressors affect human performance.
+👨‍🎓 Hi! I am Jeevan Jayasuriya, a third-year Ph.D. student in the [Neuroergonomics Lab](https://neuroergolab.org/) at the [University of Wisconsin–Madison](https://www.wisc.edu/), advised by [Dr. Ranjana Mehta](https://engineering.wisc.edu/directory/profile/ranjana-mehta/). My research interests span neuroergonomics and human factors, with a focus on assistive devices and human–machine interaction systems that integrate mechatronic design, deep learning–based temporal models, and control systems. Currently, I am working on understanding and optimizing astronaut sensorimotor performance under the combined effects of altered gravity and fatigue. 
 
-🔬 I work on the design and execution of long-duration human subject experiments and the analysis of multimodal physiological data, including fNIRS, EMG, eye tracking, heart rate, and full-body kinematics. My goal is to develop data-driven methods to improve system performance, safety, and human well-being in complex operational environments such as spaceflight and emergency response.
+🎓I received my B.Tech. (Hons.) in Mechatronics Engineering from [The Open University of Sri Lanka](https://ou.ac.lk/) and a B.S. (Hons.) in Physics from the [University of Sri Jayewardenepura](https://www.sjp.ac.lk/), followed by an M.S. in Mechanical Engineering from [Clarkson University](https://www.clarkson.edu/). My prior experience includes microcontroller-based mobile robotics, automation in safety-critical environments, biomechanics and musculoskeletal analysis, wearable sensing, machine learning–based physiological signal processing, and adaptive exoskeleton design. 
 
-🎓 I received my B.Tech. (Hons.) in Mechatronics Engineering from [The Open University of Sri Lanka](https://ou.ac.lk/) and a B.S. (Hons.) in Physics from the [University of Sri Jayewardenepura](https://www.sjp.ac.lk/), followed by an M.S. in Mechanical Engineering from [Clarkson University](https://www.clarkson.edu/). Previously, I have worked on biomechanics, wearable sensing, adaptive exoskeleton design, and automation systems.
-
-A list of my publications, projects, and research activities can be found under the relevant tabs. The best way to reach me is via email or LinkedIn.
+My research activities, publications, teaching and mentorship, and other academic activities are available under the relevant tabs. The best way to reach me is via [email](mailto:jayauriyaar@wisc.edu) or [LinkedIn](https://www.linkedin.com/in/jeevanjayasuriya/).
 
 <!-- 
 A data-driven personal website
@@ -59,8 +58,8 @@ How to edit your site's GitHub repository
 Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
 Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png) #-->
+![Editing a Markdown file for a talk](/images/editing-talk.png)
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.  #-->
