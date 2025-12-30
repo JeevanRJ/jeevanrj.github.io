@@ -8,7 +8,7 @@ date: 2014-01-01
 location: "Sri Lanka"
 ---
 
-**Undergraduate Teaching at** [University of Sri Jayewardenepura](https://science.sjp.ac.lk/phy/jajr/)
+## Undergraduate Teaching at [University of Sri Jayewardenepura](https://science.sjp.ac.lk/phy/jajr/)
 
 - **EES 209 (1.0)** — Computer Integrated Control Systems  
 - **ASP 483 (2.0)** — Advanced Programmable Logic Controllers  
@@ -19,3 +19,4 @@ location: "Sri Lanka"
 - **EES 212 (1.0)** — Embedded Systems Mini Challenge  
 - **PHY 101 (1.0)** — Fundamental of Electronics  
 - **EES 305 (1.0)** — IoT and Robotics Lab
+
