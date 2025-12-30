@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% for post in site.activities reversed %}
+  {% include archive-single-activities.html %}
 {% endfor %}
 
