@@ -2,7 +2,7 @@
 title: "Teaching and Mentorship"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching_and_mentorship
+permalink: /teaching_and_mentorship/
 venue: "University of Sri Jayewardenepura"
 date: 2014-01-01
 location: "Sri Lanka"
