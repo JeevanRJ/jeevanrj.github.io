@@ -16,8 +16,11 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Teaching"
-    url: /teaching/  
+  - title: "Teaching and Mentorship"
+    url: /teaching-and-mentorship/  
+
+  #- title: "Teaching"
+  #  url: /teaching/  
 
   - title: "Activities"
     url: /talks/   
