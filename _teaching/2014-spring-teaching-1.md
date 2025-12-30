@@ -1,5 +1,5 @@
 ---
-title: "Teaching experience 1"
+title: "Teaching and Mentorship"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
@@ -8,13 +8,23 @@ date: 2014-01-01
 location: "City, Country"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
 
-Heading 1
-======
+Undergraduate Teaching at University of Sri Jayewardenepura (add Japura link) 
 
-Heading 2
-======
+EES 209 1.0 Computer Integrated Control Systems 
 
-Heading 3
-======
+ASP 483 2.0 Advanced Programmable Logic Controllers 
+
+EES 311 1.0 Mobile Application Development 
+
+EES 202 1.0 Data Communication Techniques 
+
+EES 205 1.0 Object Oriented Programming for Embedded Systems 
+
+PHY 311 1.0 Introduction to Computer Hardware 
+
+EES 212 1.0 Embedded Systems Mini Challenge 
+
+PHY 101 1.0 Fundamental of Electronics 
+
+EES 305 1.0 IoT and Robotics Lab 
