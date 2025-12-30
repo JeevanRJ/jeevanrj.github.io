@@ -42,7 +42,19 @@
           </video>
         {%- endif -%}
 
-      {%- elsif post.slides_url -%}
+      {%- elsif post.slides_embed -%}
+
+  <iframe
+    src="{{ post.slides_embed }}"
+    style="
+      width: 100%;
+      max-width: 360px;
+      height: 220px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    "
+    allowfullscreen>
+  </iframe>
 
         {%- if post.header.teaser -%}
           <a href="{{ post.slides_url | relative_url }}"
