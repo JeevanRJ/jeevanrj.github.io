@@ -1,8 +1,6 @@
 ---
 title: "Research related to firefighter assistive devices"
 collection: research
-header:
-  teaser: /images/activities/aspire_hfes_2025.png
 ---
 
 Irrespective of existing firefighter gear, thousands of fireground injuries are reported annually.   
