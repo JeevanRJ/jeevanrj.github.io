@@ -12,17 +12,7 @@ Sensorimotor functions have been very important for the mission success in the p
 Do Concurrent occurrence of these factors impair sensorimotor functions or can humans push the boundaries to adapt and sustain performance under these challenging conditions? 
 
 To uncover these questions, we conducted human subject experiments while recording multimodal physiological data such as brain imaging, eye tracking, full body kinematics, muscle activations, and heart rate. This setup allowed us to look at impairments and compensatory mechanisms. 
-
-<iframe
-  src="https://uwprod-my.sharepoint.com/personal/jayasuriyaar_wisc_edu/_layouts/15/embed.aspx?UniqueId=b5105fb7-e7ae-4f69-9c1f-f4de437ce4c4"
-  width="640"
-  height="360"
-  frameborder="0"
-  scrolling="no"
-  allowfullscreen
-  title="Slide1">
-</iframe>
-
+image1.1
 
 Lab streaming layer (LSL) was used to collect multimodal data in a synchronized manner. Multiple routers were used to connect the devices wirelessly to the data collection PCs, and error checking mechanism were implemented to streamline the data collection.  
 
