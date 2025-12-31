@@ -6,11 +6,11 @@
 
   <!-- Two-column responsive layout (NO DATE here) -->
   <div style="
-    display:flex;
-    gap:32px;
-    align-items:flex-start;
-    justify-content:center;
-    margin: 0 auto;
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;   /* FIX: was center */
+    margin: 0 auto;                /* keep container centered */
     max-width: 1100px;
     flex-wrap: wrap;
   ">
@@ -20,11 +20,13 @@
 
       {%- if post.video_url -%}
 
-        {%- if post.video_url contains "youtube" or post.video_url contains "vimeo" -%}
-          <iframe src="{{ post.video_url }}"
-                  style="width: {{ media_width }}; height: 160px; border-radius: 8px;"
-                  frameborder="0"
-                  allowfullscreen></iframe>
+        {%- if post.video_url contains 'youtube' or post.video_url contains 'vimeo' -%}
+          <iframe
+            src="{{ post.video_url }}"
+            style="width: {{ media_width }}; height: 160px; border-radius: 8px;"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
         {%- else -%}
           <video controls style="width: {{ media_width }}; border-radius: 8px;">
             <source src="{{ base_path }}{{ post.video_url }}" type="video/mp4">
@@ -34,7 +36,7 @@
 
       {%- elsif post.slides_embed -%}
 
-        <!-- Embedded slides (scrollable window on same page) -->
+        <!-- Embedded slides -->
         <iframe
           src="{{ post.slides_embed }}"
           style="
@@ -49,9 +51,10 @@
 
       {%- elsif post.header.teaser -%}
 
-        <img src="{{ base_path }}{{ post.header.teaser }}"
-             style="width: {{ media_width }}; height: auto; border-radius: 8px;"
-             alt="Research image" />
+        <img
+          src="{{ base_path }}{{ post.header.teaser }}"
+          style="width: {{ media_width }}; height: auto; border-radius: 8px;"
+          alt="Research image" />
 
       {%- endif -%}
 
@@ -60,12 +63,12 @@
     <!-- TEXT (title + full content) -->
     <div style="flex: 1; min-width: 320px; max-width: 760px;">
 
-      <h2 style="margin: 0 0 0.6em 0; font-weight: 800; text-align: center;">
+      <h2 style="margin: 0 0 0.6em 0; font-weight: 800; text-align: left;">
         {{ post.title }}
       </h2>
 
       {% if post.location %}
-        <div style="text-align:center; margin-bottom: 0.75em; font-weight: 600;">
+        <div style="text-align: left; margin-bottom: 0.75em; font-weight: 600;">
           📍 {{ post.location }}
         </div>
       {% endif %}
