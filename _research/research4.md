@@ -13,7 +13,7 @@ Slide12_1.mp4 | Slide12_2.mp4 | Slide12_3.mp4
 Slide13_1.mp4  
 Slide13_2.mp4  
 If placement allow  
-
+video_url: "https://www.youtube.com/embed/V6kMs673lnM"
 Slide14_1.mp4  
 
 Slide14_2.mp4 
