@@ -3,6 +3,7 @@ title: "Other undergraduate research"
 collection: research
 ---
 Obstacle navigation in mobile robotics 
-Slide25.png 
+![Research figure]({{ site.baseurl }}/images/Slide25.PNG)
+
 Machine Vision based system for Grain Classification 
-Slide26.png
+![Research figure]({{ site.baseurl }}/images/Slide26.PNG)
