@@ -14,7 +14,14 @@ Slide13_1.mp4
 Slide13_2.mp4  
 If placement allow  
 
-video_url:"https://www.youtube.com/embed/V6kMs673lnM"
+<div style="max-width: 1100px; margin: 2em auto;">
+  <iframe
+    src="https://www.youtube.com/embed/V6kMs673lnM"
+    style="width: 100%; aspect-ratio: 16 / 9;"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
 
 Slide14_1.mp4  
 
