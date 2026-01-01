@@ -55,10 +55,10 @@ In this work, we trained a Temporal Convolutional Network (TCN) to forecast gait
   </iframe>
 </div> --> 
 
-<div style="max-width: 1100px; margin: 2em auto;">
+<div style="max-width: 700px; margin: 2em auto;">
   <iframe
-    src="https://www.youtube.com/embed/3paX5J4QHCg?si=LtNg_zyurS0PHtFm"
-    style="width: 700px; max-width: 100%; aspect-ratio: 16 / 9; display: block; margin: 0 auto;"
+    src="https://www.youtube.com/embed/3paX5J4QHCg"
+    style="width: 100%; aspect-ratio: 16 / 9;"
     frameborder="0"
     allowfullscreen>
   </iframe>
