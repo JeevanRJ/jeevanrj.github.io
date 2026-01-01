@@ -6,7 +6,7 @@ collection: research
 Despite modern protective equipment, thousands of fireground injuries occur annually, underscoring the need for effective firefighter assistive technologies.
 <img src="{{ site.baseurl }}/images/Slide9.PNG"
      alt="Research figure"
-     style="width: 400px; max-width: 100%; display: block; margin: 1.5em auto;">
+     style="width: 300px; max-width: 100%; display: block; margin: 1.5em auto;">
 
 **Can a firefighter exoskeleton help?**
 The lack of firefighter-specific biomechanical data remains a major challenge in the design of effective assistive devices and exoskeletons. To address this gap, we collected biomechanical data from professional firefighters to create a comprehensive database of firefighter movement and loading patterns. Firefighter activities were visualized using MVN software, and musculoskeletal simulations were performed in the AnyBody Modeling System by applying virtual forces corresponding to external loads. 
