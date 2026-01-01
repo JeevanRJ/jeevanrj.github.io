@@ -33,5 +33,13 @@ Assistive Technologies for Planetary Surface Exploration
 Post-landing sensorimotor impairment remains a major operational risk for astronauts during planetary surface exploration, particularly when immediate external mobility support may not be available. Can we predict gait instabilities ahead of time so that assistive devices can alert the user early giving them extra bit of time to react and exoskeletons can safely shift to fall prevention modes smoothly?  
 ![Research figure]({{ site.baseurl }}/images/Slide7.PNG)
 
-In this work, we trained a temporal convolutional network (TCN) to forecast instability 0.1–1.0 s into the future using margin of stability, muscle activations, and kinematics.   
+In this work, we trained a Temporal Convolutional Network (TCN) to forecast gait instability 0.1–1.0 s into the future using margin of stability, muscle activation, and kinematic data. 
 
+<div style="max-width: 1100px; margin: 2em auto;">
+  <iframe
+    src="https://www.youtube.com/embed/3paX5J4QHCg?si=LtNg_zyurS0PHtFm"
+    style="width: 100%; aspect-ratio: 16 / 9;"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
