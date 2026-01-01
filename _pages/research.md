@@ -7,6 +7,30 @@ author_profile: true
 
 {% include base_path %}
 
+## Contents
+
+- [Research Overview](#research-overview)
+- [Research on spaceflight human optimization](#research-on-spaceflight-human-optimization)
+  - [Multiple Spaceflight Hazards](#multiple-spaceflight-hazards)
+  - [Data Collection and Synchronization](#data-collection-and-synchronization)
+  - [Simulating Altered Gravity](#simulating-altered-gravity)
+  - [Sensorimotor test battery](#sensorimotor-test-battery)
+  - [Fatigue Manipulation and Assessment](#fatigue-manipulation-and-assessment)
+  - [Key Findings and Ongoing Work](#key-findings-and-ongoing-work)
+  - [Assistive Technologies for Planetary Surface Exploration](#assistive-technologies-for-planetary-surface-exploration)
+- [Research on Firefighter Assistive Devices](#research-on-firefighter-assistive-devices)
+  -[Can a firefighter exoskeleton help?](#can-a-firefighter-exoskeleton-help?)
+  -[Closed-Loop Human–Machine Interfaces](#closed-loop-human–machine-interfaces)
+  -[Hardware and Control Architecture](#hardware-and-control-architecture)
+- [Fire safety in coal yards](#fire-safety-in-coal-yards)
+- [Other undergraduate research](#other-undergraduate-research)
+  - [Obstacle navigation in mobile robotics](#obstacle-navigation-in-mobile-robotics)
+  - [Machine Vision based system for Grain Classification](#machine-vision-based-system-for-grain-classification)
+- [Industrial internship projects](#industrial-internship-projects)
+  - [Pneumatic based electrical component testing machine](#pneumatic-based-electrical-component-testing-machine)
+  - [Conveyor system for collecting output from the production floor](#conveyor-system-for-collecting-output-from-the-production-floor)
+
+
 ## Research Overview
 
 <div style="max-width: 820px; font-size: 1.05em; line-height: 1.7; margin-bottom: 3em;">
@@ -24,5 +48,6 @@ The overarching goal of my research is to translate these data-driven insights i
 {% for post in site.research reversed %}
   {% include archive-single-research.html %}
 {% endfor %}
+
 
 
