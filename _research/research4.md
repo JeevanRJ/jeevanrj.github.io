@@ -1,27 +1,38 @@
 ---
-title: "Research related to firefighter assistive devices"
+title: "Research on Firefighter Assistive Devices"
 collection: research
 ---
 
-Irrespective of existing firefighter gear, thousands of fireground injuries are reported annually.   
-![Research figure]({{ site.baseurl }}/images/Slide9.PNG)
+Despite modern protective equipment, thousands of fireground injuries occur annually, underscoring the need for effective firefighter assistive technologies.
+<img src="{{ site.baseurl }}/images/Slide9.PNG"
+     alt="Research figure"
+     style="width: 600px; max-width: 100%; display: block; margin: 1.5em auto;">
 
-Can a firefighter exoskeleton help? The lack of firefighter biomechanical data is a major challenge in designing firefighter specific assistive devices and exoskeleton. We collected data from professional firefighters to create a comprehensive database of firefighter biomechanics.  Firefighter activities were visualized in MVN software, and musculoskeletal simulation were conducted in Anybody Modelling System after applying virtual forces correspond to external loads.  
-![Research figure]({{ site.baseurl }}/images/Slide10.PNG)
-![Research figure]({{ site.baseurl }}/images/Slide11.PNG)
-Slide12_1.mp4 | Slide12_2.mp4 | Slide12_3.mp4 
-Slide13_1.mp4  
-Slide13_2.mp4  
-If placement allow  
-
-<div style="max-width: 1100px; margin: 2em auto;">
+**Can a firefighter exoskeleton help?**
+The lack of firefighter-specific biomechanical data remains a major challenge in the design of effective assistive devices and exoskeletons. To address this gap, we collected biomechanical data from professional firefighters to create a comprehensive database of firefighter movement and loading patterns. Firefighter activities were visualized using MVN software, and musculoskeletal simulations were performed in the AnyBody Modeling System by applying virtual forces corresponding to external loads. 
+<img src="{{ site.baseurl }}/images/Slide10.PNG"
+     alt="Research figure"
+     style="width: 700px; max-width: 100%; display: block; margin: 1.5em auto;">
+<img src="{{ site.baseurl }}/images/Slide11.PNG"
+     alt="Research figure"
+     style="width: 700px; max-width: 100%; display: block; margin: 1.5em auto;">
+<div style="max-width: 700px; margin: 2em auto;">
   <iframe
-    src="https://www.youtube.com/embed/V6kMs673lnM"
+    src="https://www.youtube.com/embed/h34h2JHa8yo?si=xljKIuW746fjBHvA"
     style="width: 100%; aspect-ratio: 16 / 9;"
     frameborder="0"
     allowfullscreen>
   </iframe>
 </div>
+  <iframe
+    src="https://www.youtube.com/embed/RsNdsJtFUjg"
+    style="width: 100%; aspect-ratio: 16 / 9;"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
 
 Slide14_1.mp4  
 
