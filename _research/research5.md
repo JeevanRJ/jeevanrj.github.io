@@ -13,7 +13,7 @@ To address this question, we conducted human-subject experiments while collectin
 <!-- ![Research figure]({{ site.baseurl }}/images/Slide1.PNG) -->
 <img src="{{ site.baseurl }}/images/Slide1.PNG"
      alt="Research figure"
-     style="width: 600px; max-width: 100%; display: block; margin: 1.5em auto;">
+     style="width: 400px; max-width: 100%; display: block; margin: 1.5em auto;">
 
 **Data Collection and Synchronization**
 
