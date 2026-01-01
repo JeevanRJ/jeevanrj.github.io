@@ -1,6 +1,7 @@
 ---
 title: "Research on Firefighter Assistive Devices"
 collection: research
+permalink: /research/research4/
 ---
 
 Despite modern protective equipment, thousands of fireground injuries occur annually, underscoring the need for effective firefighter assistive technologies.
