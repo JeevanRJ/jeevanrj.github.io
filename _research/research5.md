@@ -20,14 +20,14 @@ To address this question, we conducted human-subject experiments while collectin
 Multimodal data streams were synchronized using Lab Streaming Layer (LSL). Devices were wirelessly networked to dedicated acquisition systems, with automated error-checking implemented to support robust, high-fidelity data collection. 
 <img src="{{ site.baseurl }}/images/Slide2.PNG"
      alt="Research figure"
-     style="width: 500px; max-width: 100%; display: block; margin: 1.5em auto;">
+     style="width: 600px; max-width: 100%; display: block; margin: 1.5em auto;">
 
 **Simulating Altered Gravity**
 
 Post-landing effects associated with altered gravity were recreated in the laboratory using Galvanic Vestibular Stimulation (GVS). A small, controlled electrical current (up to 2 mA) was applied across the mastoid processes, generating an electric field that perturbs vestibular afferent signaling. This stimulation effectively disrupts vestibular input to the brain, allowing controlled investigation of balance and sensorimotor responses under altered gravity–like conditions. 
 <img src="{{ site.baseurl }}/images/Slide3.PNG"
      alt="Research figure"
-     style="width: 500px; max-width: 100%; display: block; margin: 1.5em auto;">
+     style="width: 600px; max-width: 100%; display: block; margin: 1.5em auto;">
 **Sensorimotor test battery**
 
 Participants completed a sensorimotor test battery consisting of 13 activities under the combined effects of GVS and fatigue.
