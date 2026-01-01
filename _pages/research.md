@@ -29,6 +29,7 @@ author_profile: true
 - [Other undergraduate research](#other-undergraduate-research)
   - [Obstacle navigation in mobile robotics](#obstacle-navigation-in-mobile-robotics)
   - [Machine Vision based system for Grain Classification](#machine-vision-based-system-for-grain-classification)
+    
 - [Industrial internship projects](#industrial-internship-projects)
   - [Pneumatic based electrical component testing machine](#pneumatic-based-electrical-component-testing-machine)
   - [Conveyor system for collecting output from the production floor](#conveyor-system-for-collecting-output-from-the-production-floor)
