@@ -20,7 +20,7 @@ To address this question, we conducted human-subject experiments while collectin
 Multimodal data streams were synchronized using Lab Streaming Layer (LSL). Devices were wirelessly networked to dedicated acquisition systems, with automated error-checking implemented to support robust, high-fidelity data collection. 
 <img src="{{ site.baseurl }}/images/Slide2.PNG"
      alt="Research figure"
-     style="width: 600px; max-width: 100%; display: block; margin: 1.5em auto;">
+     style="width: 700px; max-width: 100%; display: block; margin: 1.5em auto;">
 
 **Simulating Altered Gravity**
 
