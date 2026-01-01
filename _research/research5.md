@@ -1,45 +1,66 @@
 ---
-title: "Research on human spaceflight optimization"
+title: "Research on spaceflight human optimization"
 collection: research
 ---
 
-Characterizing the risk due to multiple spaceflight hazards 
+**Multiple Spaceflight Hazards**
 
-Sensorimotor functions have been very important for the mission success in the past space missions, and it will be even more so in the future long-range missions to mars and beyond where landing crew support can be spare. Astronauts experience multiple spaceflight hazards during the missions such as altered gravity and fatigue due to work overload and sleep deprivation.  
+Sensorimotor function has been critical to mission success in past space missions and will be even more essential for future long-duration missions to Mars and beyond, where real-time ground support will be limited. During spaceflight, astronauts are exposed to multiple hazards, including altered gravity and fatigue arising from high workload and sleep deprivation.
 
-Do Concurrent occurrence of these factors impair sensorimotor functions or can humans push the boundaries to adapt and sustain performance under these challenging conditions? 
+Do these stressors jointly impair sensorimotor function, or can humans adapt to sustain performance under such challenging conditions?
 
-To uncover these questions, we conducted human subject experiments while recording multimodal physiological data such as brain imaging, eye tracking, full body kinematics, muscle activations, and heart rate. This setup allowed us to look at impairments and compensatory mechanisms. 
+To address this question, we conducted human-subject experiments while collecting multimodal physiological data, including brain imaging, eye tracking, full-body kinematics, muscle activity, and heart rate. This approach enables us to identify both performance impairments and compensatory mechanisms underlying human adaptation.
 ![Research figure]({{ site.baseurl }}/images/Slide1.PNG)
 
-Lab streaming layer (LSL) was used to collect multimodal data in a synchronized manner. Multiple routers were used to connect the devices wirelessly to the data collection PCs, and error checking mechanism were implemented to streamline the data collection.  
+**Data Collection and Synchronization**
+
+Multimodal data streams were synchronized using Lab Streaming Layer (LSL). Devices were wirelessly networked to dedicated acquisition systems, with automated error-checking implemented to support robust, high-fidelity data collection. 
 ![Research figure]({{ site.baseurl }}/images/Slide2.PNG)
 
-Post landing effects due to altered gravity was recreated in the lab environment using Galvanic vestibular stimulation (GVS) by providing a small, controlled current of 2mA range across mastoid process aeras creating an electric field across those points. This effectively jam the signal from vestibular system to the brain.  
+**Simulating Altered Gravity**
+
+Post-landing effects associated with altered gravity were recreated in the laboratory using Galvanic Vestibular Stimulation (GVS). A small, controlled electrical current (up to 2 mA) was applied across the mastoid processes, generating an electric field that perturbs vestibular afferent signaling. This stimulation effectively disrupts vestibular input to the brain, allowing controlled investigation of balance and sensorimotor responses under altered gravity–like conditions. 
 ![Research figure]({{ site.baseurl }}/images/Slide3.PNG)
 
-Participants performed a sensorimotor test battery with 13 different activities under interactive effects of GVS and fatigue.  
+**Sensorimotor test battery**
+
+Participants completed a sensorimotor test battery consisting of 13 activities under the combined effects of GVS and fatigue.
 ![Research figure]({{ site.baseurl }}/images/Slide4.PNG)
 
-Mental fatigue equivalent to work overload was induced via a two-back session that needed participants to engage in a working memory task for two continuous hours, and sleep deprivation related fatigue needed them to stay awake overnight while repeating the sensorimotor test battery four equally phased time points in the night. In addition to the multimodal physiological data, additional fatigue assessments were done using Psychomotor Vigilance Test (PVT), Karolinska Sleepiness Scale (KSS) and Profile of Mood States (POMS). 
-![Research figure]({{ site.baseurl }}/images/Slide5.PNG)
-Slide5.png (see slide 5 / left side image in a gif./ ideal to insert as a gif) 
+**Fatigue Manipulation and Assessment**
 
-We have found interesting physiological behaviors in brain activations and other physiological data under the interactive effect of altered gravity and fatigue, and the journal publications are under preparation.  
+Mental fatigue, representing work overload, was induced using a two-back task that required continuous engagement in a working memory task for two hours. Sleep-deprivation–related fatigue was induced by requiring participants to remain awake overnight while repeating the sensorimotor test battery at four equally spaced time points throughout the night. 
+In addition to multimodal physiological measurements, fatigue was assessed using the Psychomotor Vigilance Test (PVT), Karolinska Sleepiness Scale (KSS), and Profile of Mood States (POMS).
+![Research figure]({{ site.baseurl }}/images/Slide5.PNG)
+**Slide5.png (see slide 5 / left side image in a gif./ ideal to insert as a gif)**
+
+**Key Findings and Ongoing Work**
+
+Our analyses revealed distinct physiological responses in brain activation and other physiological measures under the interactive effects of altered gravity and fatigue. Related journal publications are currently in preparation. 
 ![Research figure]({{ site.baseurl }}/images/Slide6.PNG)
 
-Assistive Technologies for Planetary Surface Exploration 
+**Assistive Technologies for Planetary Surface Exploration** 
 
-Post-landing sensorimotor impairment remains a major operational risk for astronauts during planetary surface exploration, particularly when immediate external mobility support may not be available. Can we predict gait instabilities ahead of time so that assistive devices can alert the user early giving them extra bit of time to react and exoskeletons can safely shift to fall prevention modes smoothly?  
+Post-landing sensorimotor impairment remains a major operational risk for astronauts during planetary surface exploration, particularly when immediate external mobility support may be limited. Can gait instabilities be predicted in advance, enabling assistive systems to provide early warnings and allowing exoskeletons to transition smoothly into fall-prevention modes?  
 ![Research figure]({{ site.baseurl }}/images/Slide7.PNG)
 
 In this work, we trained a Temporal Convolutional Network (TCN) to forecast gait instability 0.1–1.0 s into the future using margin of stability, muscle activation, and kinematic data. 
 
-<div style="max-width: 1100px; margin: 2em auto;">
+<!-- <div style="max-width: 1100px; margin: 2em auto;">
   <iframe
     src="https://www.youtube.com/embed/3paX5J4QHCg?si=LtNg_zyurS0PHtFm"
     style="width: 100%; aspect-ratio: 16 / 9;"
     frameborder="0"
     allowfullscreen>
   </iframe>
+</div> --> 
+
+<div style="max-width: 1100px; margin: 2em auto;">
+  <iframe
+    src="https://www.youtube.com/embed/3paX5J4QHCg?si=LtNg_zyurS0PHtFm"
+    style="width: 700px; max-width: 100%; aspect-ratio: 16 / 9; display: block; margin: 0 auto;"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
 </div>
+
