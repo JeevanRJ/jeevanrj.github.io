@@ -10,7 +10,10 @@ Sensorimotor function has been critical to mission success in past space mission
 Do these stressors jointly impair sensorimotor function, or can humans adapt to sustain performance under such challenging conditions?
 
 To address this question, we conducted human-subject experiments while collecting multimodal physiological data, including brain imaging, eye tracking, full-body kinematics, muscle activity, and heart rate. This approach enables us to identify both performance impairments and compensatory mechanisms underlying human adaptation.
-![Research figure]({{ site.baseurl }}/images/Slide1.PNG)
+<!-- ![Research figure]({{ site.baseurl }}/images/Slide1.PNG) -->
+<img src="{{ site.baseurl }}/images/Slide2.PNG"
+     alt="Research figure"
+     style="width: 600px; max-width: 100%; display: block; margin: 1.5em auto;">
 
 **Data Collection and Synchronization**
 
