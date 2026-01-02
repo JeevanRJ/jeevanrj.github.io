@@ -2,6 +2,7 @@
 title: "Pulse Rate Variability From Wearable Wristwatches as a Surrogate for Heart Rate Variability? We Think Not Yet"
 collection: publications
 category: manuscripts
+date: 2025-01-01
 paperurl: "https://doi.org/10.1177/10711813251357929"
 ---
 Shanghavi, A. A., Jayasuriya, J., Cai, Y., & Mehta, R. K. (2025). Pulse Rate Variability From Wearable Wristwatches as a Surrogate for Heart Rate Variability? We Think Not Yet. Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 69(1), 943-947. [https://doi.org/10.1177/10711813251357929](https://journals.sagepub.com/doi/full/10.1177/10711813251357929) 
