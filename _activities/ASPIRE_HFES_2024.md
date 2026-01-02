@@ -1,8 +1,8 @@
 ---
 title: "ASPIRE HFES 2024"
 collection: activities
-location: "Chicago, Arizona"
-date: 2024-10-01
+location: "Phoenix, Arizona"
+date: 2024-09-09
 ---
 
 
