@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-****
 
 👨‍🎓 Hi! I am Jeevan Jayasuriya, a third-year Ph.D. student in the [Neuroergonomics Lab](https://neuroergolab.org/) at the [University of Wisconsin–Madison](https://www.wisc.edu/), advised by [Dr. Ranjana Mehta](https://engineering.wisc.edu/directory/profile/ranjana-mehta/). My research interests span neuroergonomics and human factors, with a focus on assistive devices and human–machine interaction systems that integrate mechatronic design, deep learning–based temporal models, and control systems. Currently, I am working on understanding and optimizing astronaut sensorimotor performance under the combined effects of altered gravity and fatigue. 
 
