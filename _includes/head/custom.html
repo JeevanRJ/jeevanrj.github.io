@@ -5,7 +5,7 @@
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<!-- favicon -->
+<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
@@ -14,15 +14,78 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
-<!-- Avatar shape fix 160px-->
 <style>
+/* =========================
+   NAV: highlight active tab
+   ========================= */
+.masthead__menu-item a.is-active {
+  color: #c5050c;              /* UW–Madison red */
+  font-weight: 700;
+  border-bottom: 3px solid #c5050c;
+  padding-bottom: 4px;
+}
+
+.masthead__menu-item a:hover {
+  color: #c5050c;
+}
+
+/* =========================
+   AVATAR: sharp + centered + circle
+   (avoid blur by NOT forcing width/height)
+   ========================= */
 .author__avatar img {
-  max-width: 260px;
+  max-width: 180px;            /* change to 160px if you want smaller */
   width: auto;
   height: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+  object-position: center center; /* fix "cut on right" feel */
   border-radius: 50%;
+}
+
+/* =========================
+   SIDEBAR: make left column wider
+   ========================= */
+.author__sidebar {
+  width: 320px;                /* increase if you want more space */
+}
+
+/* Keep main content aligned with wider sidebar */
+.page__content {
+  max-width: calc(100% - 340px);
+}
+
+/* =========================
+   SIDEBAR TEXT: slightly larger
+   ========================= */
+.author__name {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.author__content {
+  font-size: 1.0rem;
+  line-height: 1.5;
+}
+
+/* Make the profile links list a little easier to read */
+.author__urls-wrapper {
+  font-size: 0.98rem;
+}
+
+/* =========================
+   MOBILE: don't break layout
+   ========================= */
+@media (max-width: 900px) {
+  .author__sidebar {
+    width: auto;
+  }
+  .page__content {
+    max-width: 100%;
+  }
+  .author__avatar img {
+    max-width: 160px;
+  }
 }
 </style>
 
