@@ -27,6 +27,8 @@ To achieve this, I integrate insights from <strong>brain imaging</strong>, <stro
 
 The overarching goal of my research is to translate these data-driven insights into the <strong>design and control of human–machine systems</strong> that jointly optimize <strong>human performance, system effectiveness, and safety</strong>.
 
+Following is a short description of my research work. Selected analysis code and tools are available on my [GitHub repository](https://github.com/JeevanRJ?tab=repositories). 
+
 </div>
 
 <hr style="margin: 2.5em 0;">
