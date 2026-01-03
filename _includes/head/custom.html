@@ -61,12 +61,29 @@
 
 /* =====================================================
    PARAGRAPH JUSTIFICATION (Word-style alignment)
-   ===================================================== */
+   
 .page__content p {
   text-align: justify;
   text-justify: inter-word;
   line-height: 1.7;
 }
+===================================================== */
+/* =====================================================
+   GLOBAL BODY TEXT: size + justification (ALL PAGES)
+   ===================================================== */
+
+/* Set global base font size for the whole site */
+html {
+  font-size: 17px;          /* default is 16px; try 17 or 18 */
+}
+
+/* Justify normal paragraph text everywhere */
+.page__content p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.7;         /* improves readability with justify */
+}
+
    
 /* =====================================================
    MOBILE SAFETY
