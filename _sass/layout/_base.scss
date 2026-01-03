@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: $masthead-height 0 0;
   padding-bottom: 9em;
-  font-family: $global-font-family;
+  font-family: "Helvetica, Arial, sans-serif";
   line-height: 1.5;
 
   &.overflow--hidden {
@@ -27,7 +27,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
-  font-family: $header-font-family;
+  font-family: "Helvetica, Arial, sans-serif";
   font-weight: bold;
 }
 
@@ -128,7 +128,7 @@ a {
 /* code */
 
 tt, code, kbd, samp, pre {
-  font-family: $monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 pre {
@@ -156,7 +156,7 @@ td > code {
 }
 
 a > code {
-    color: inherit;
+  color: inherit;
 }
 
 pre > code {
@@ -249,7 +249,7 @@ figure {
 figcaption {
   margin-bottom: 0.5em;
   color: var(--global-fig-caption-color);
-  font-family: $caption-font-family;
+  font-family: "Helvetica, Arial, sans-serif";
   font-size: $type-size-6;
 
   a {
@@ -277,19 +277,6 @@ svg:not(:root) {
 /*
    Navigation lists
    ========================================================================== */
-
-/**
- * Removes margins, padding, and bullet points from navigation lists
- *
- * Example usage:
- * <nav>
- *    <ul>
- *      <li><a href="#link-1">Link 1</a></li>
- *      <li><a href="#link-2">Link 2</a></li>
- *      <li><a href="#link-3">Link 3</a></li>
- *    </ul>
- *  </nav>
- */
 
 nav {
   ul {
@@ -321,23 +308,23 @@ nav {
    ANIMATIONS
    ========================================================================== */
 
-   @-webkit-keyframes intro {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+@-webkit-keyframes intro {
+  0% {
+    opacity: 0;
   }
-  
-  @keyframes intro {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
+}
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /* Global animation transition */
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
@@ -349,17 +336,13 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
    PRINT STYLES
    ========================================================================== */
 
-/*
-   Hide the following elements on print
-   ========================================================================== */
-
-   @media print {
-    .masthead,
-    .toc,
-    .page__share,
-    .page__related,
-    .ads,
-    .page__footer {
-      display: none;
-    }
+@media print {
+  .masthead,
+  .toc,
+  .page__share,
+  .page__related,
+  .ads,
+  .page__footer {
+    display: none;
   }
+}
