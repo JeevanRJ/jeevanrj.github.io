@@ -1,14 +1,11 @@
 ---
 permalink: /
-title: "👋 Hello there, I’m Jeevan Jayasuriya!"
+title: "Hello there, I’m Jeevan Jayasuriya!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-Ph.D. Candidate, Industrial & Systems Engineering
-University of Wisconsin–Madison<br>• Neuroergonomics • Human Factors • Human–Machine Interaction 
 
 ****
 
