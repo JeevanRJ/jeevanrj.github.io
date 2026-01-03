@@ -16,7 +16,7 @@
 
 <style>
 /* =====================================================
-   AVATAR: sharp, centered, circular (NO blur)
+   AVATAR: sharp, centered, circular
    ===================================================== */
 .author__avatar img {
   max-width: 200px;
@@ -29,23 +29,20 @@
 }
 
 /* =====================================================
-   NAVIGATION: highlight ONLY the active page tab
-   (THIS IS THE IMPORTANT PART)
+   NAVIGATION: ACTIVE TAB (nimRobotics-style)
    ===================================================== */
 
-/* Active page only */
+/* Active page ONLY */
 .masthead__menu-item a[aria-current="page"],
 .greedy-nav a[aria-current="page"] {
-  color: #c5050c;            /* UW–Madison red */
-  font-weight: 700;
-  border-bottom: 3px solid #c5050c;
-  padding-bottom: 4px;
+  color: #4fc3f7;            /* blue highlight (matches example) */
+  font-weight: 500;
 }
 
-/* Hover effect (does NOT affect active logic) */
+/* Hover (optional, subtle) */
 .masthead__menu-item a:hover,
 .greedy-nav a:hover {
-  color: #c5050c;
+  color: #4fc3f7;
 }
 
 /* =====================================================
