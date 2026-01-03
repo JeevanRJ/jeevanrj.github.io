@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello there, I’m Jeevan Jayasuriya!"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
