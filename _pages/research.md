@@ -10,15 +10,10 @@ author_profile: true
 ## Contents
 
 - [Research Overview](#research-overview)
-
 - [Research on Spaceflight Human Optimization](#research-on-spaceflight-human-optimization)
-
-- [Research on Firefighter Assistive Devices](#research-on-firefighter-assistive-devices)
-    
+- [Research on Firefighter Assistive Devices](#research-on-firefighter-assistive-devices)   
 - [Fire safety in coal yards](#fire-safety-in-coal-yards)
-
 - [Other undergraduate research](#other-undergraduate-research)
-
 - [Industrial internship projects](#industrial-internship-projects)
 
 
