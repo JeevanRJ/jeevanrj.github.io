@@ -1,7 +1,6 @@
 ---
 title: "Research on Firefighter Assistive Devices"
 collection: research
-permalink: /research/research4/
 ---
 
 Despite modern protective equipment, thousands of fireground injuries occur annually, underscoring the need for effective firefighter assistive technologies.
@@ -9,7 +8,7 @@ Despite modern protective equipment, thousands of fireground injuries occur annu
      alt="Research figure"
      style="width: 300px; max-width: 100%; display: block; margin: 1.5em auto;">
 
-### Can a firefighter exoskeleton help?
+### Can a firefighter exoskeleton help? {#can-a-firefighter-exoskeleton-help?}
 
 The lack of firefighter-specific biomechanical data remains a major challenge in the design of effective assistive devices and exoskeletons. To address this gap, we collected biomechanical data from professional firefighters to create a comprehensive database of firefighter movement and loading patterns. Firefighter activities were visualized using MVN software, and musculoskeletal simulations were performed in the AnyBody Modeling System by applying virtual forces corresponding to external loads. 
 <img src="{{ site.baseurl }}/images/Slide10.PNG"
@@ -47,7 +46,7 @@ The lack of firefighter-specific biomechanical data remains a major challenge in
   </iframe>
 </div>
 
-### Closed-Loop Human–Machine Interfaces
+### Closed-Loop Human–Machine Interfaces {#closed-loop-human–machine-interfaces}
 
 Closed-loop human–machine interfaces are critical for the development of exoskeletons that prioritize safety, comfort, and performance. Shown below is an example using a simple PID controller implemented in the AnyBody Modeling System (AMS) to regulate the activation level of a targeted muscle during elbow flexion under an external load (black arrow). 
 <img src="{{ site.baseurl }}/images/Slide15.PNG"
@@ -65,7 +64,7 @@ Developing control systems that explicitly account for human–exoskeleton inter
   </iframe>
 </div>
 
-### Hardware and Control Architecture
+### Hardware and Control Architecture {#hardware-and-control-architecture}
 
 Actuators were selected to match the biomechanical demands of firefighter activities (joint range of motion and torque requirements) while minimizing system weight, size, and cost. Controller–actuator communication was established using CAN bus. Multiple active and passive control strategies were evaluated, with an emphasis on safety and smooth, reliable performance.
 
