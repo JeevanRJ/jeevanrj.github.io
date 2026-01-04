@@ -7,13 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-<img src="{{ '/images/ChatGPT.png' | relative_url }}"
-     alt="Profile image"
-     class="align-right"
-     style="width: 35%; max-width: 280px; border-radius: 8px; margin-left: 20px;">
-
-
 Hi! I am Jeevan Jayasuriya, a third-year Ph.D. student in the [Neuroergonomics Lab](https://neuroergolab.org/) at the [University of Wisconsin–Madison](https://www.wisc.edu/), advised by [Dr. Ranjana Mehta](https://engineering.wisc.edu/directory/profile/ranjana-mehta/). My research interests span neuroergonomics and human factors, with a focus on assistive devices and human–machine interaction systems that integrate mechatronic design, deep learning–based temporal models, and control systems. Currently, I am working on understanding and optimizing astronaut sensorimotor performance under the combined effects of altered gravity and fatigue. 
+
+<div style="float: right; width: 38%; margin-left: 20px; margin-bottom: 20px; text-align: center;">
+  <img src="/assets/images/ChatGPT.png" style="max-width: 100%; border-radius: 8px;">
+  <p style="font-size: 0.9em; color: #555;">Temporal Modelling in Spaceflight Neuroergonomics</p>
+</div>
 
 I received my B.Tech. (Hons.) in Mechatronics Engineering from [The Open University of Sri Lanka](https://ou.ac.lk/) and a B.S. (Hons.) in Physics from the [University of Sri Jayewardenepura](https://www.sjp.ac.lk/), followed by an M.S. in Mechanical Engineering from [Clarkson University](https://www.clarkson.edu/). My prior experience includes microcontroller-based mobile robotics, automation in safety-critical environments, biomechanics and musculoskeletal analysis, wearable sensing, machine learning–based physiological signal processing, and adaptive exoskeleton design. 
 
