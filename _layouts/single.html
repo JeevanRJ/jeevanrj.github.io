@@ -53,14 +53,14 @@ layout: default
           {{ content }}
 
           <!-- Citations / download links (existing code) -->
-          {% if page.citation or page.paperurl or page.slidesurl or page.bibtexurl %}
+        {% if page.citation or page.paperurl or page.slidesurl or page.bibtexurl %}
             <p style="font-size: smaller">
               {% if page.citation %}Recommended citation: {{ page.citation }}<br>{% endif %}
               {% if page.paperurl %}<a href="{{ page.paperurl }}">Download Paper</a>{% endif %}
               {% if page.slidesurl %} | <a href="{{ page.slidesurl }}">Download Slides</a>{% endif %}
               {% if page.bibtexurl %} | <a href="{{ page.bibtexurl }}">Download Bibtex</a>{% endif %}
             </p>
-          {% endif %}
+          {% endif %} 
 
           {% if page.link %}
             <div><a href="{{ page.link }}" class="btn">Direct Link</a></div>
@@ -83,7 +83,7 @@ layout: default
 
       <!-- Right side: image -->
       <div style="flex: 1; text-align: right;">
-        <img src="{{ site.baseurl }}/images/SChatGPT.png" alt="Right Side Image" style="max-width: 100%; height: auto;">
+        <img src="{{ site.baseurl }}/images/ChatGPT.png" alt="Right Side Image" style="max-width: 100%; height: auto;">
       </div>
 
     </div> <!-- end page__inner-wrap -->
