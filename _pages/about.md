@@ -9,7 +9,7 @@ redirect_from:
 
 <div style="float: right; width: 35%; text-align: center; margin-left: 20px; margin-bottom: 20px;">
   <img src="{{ '/images/ChatGPT.png' | relative_url }}" style="max-width: 100%; border-radius: 8px;">
-  <p style="font-size: 0.9em; color: #555;">Temporal Modeling in Spaceflight Neuroergonomics</p>
+  <p style="font-size: 0.9em; color: #555;"></p>
 </div>
 
 
