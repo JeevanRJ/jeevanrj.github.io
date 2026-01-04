@@ -15,6 +15,10 @@ I received my B.Tech. (Hons.) in Mechatronics Engineering from [The Open Univers
 
 My research activities, publications, teaching and mentorship, and other academic activities are available under the relevant tabs, with selected analysis code and tools available on my [GitHub repository](https://github.com/JeevanRJ?tab=repositories). The best way to reach me is via [email](mailto:jayauriyaar@wisc.edu) or [LinkedIn](https://www.linkedin.com/in/jeevanjayasuriya/).
 
+<img src="{{ site.baseurl }}/images/ChatGPT.PNG"
+     alt="Research figure"
+     style="width: 400px; max-width: 100%; display: block; margin: 1.5em auto;">
+
 <!-- 
 A data-driven personal website
 ======
