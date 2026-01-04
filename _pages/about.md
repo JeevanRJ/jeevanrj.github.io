@@ -17,7 +17,7 @@ My research activities, publications, teaching and mentorship, and other academi
 
 <img src="{{ site.baseurl }}/images/ChatGPT.PNG"
      alt="Research figure"
-     style="width: 400px; max-width: 100%; display: block; margin: 1.5em auto;">
+     style="width: 600px; max-width: 100%; display: block; margin: 1.5em auto;">
 
 <!-- 
 A data-driven personal website
