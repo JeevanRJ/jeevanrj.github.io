@@ -7,10 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-<div style="float: right; width: 35%; text-align: center; margin-left: 20px; margin-bottom: 20px;">
-  <img src="{{ '/images/ChatGPT.png' | relative_url }}" style="max-width: 100%; border-radius: 8px;">
-  <p style="font-size: 0.9em; color: #555;"></p>
-</div>
+<img src="{{ '/images/ChatGPT.png' | relative_url }}"
+     alt="Profile image"
+     class="align-right"
+     style="width: 35%; max-width: 280px; border-radius: 8px; margin-left: 20px;">
 
 
 Hi! I am Jeevan Jayasuriya, a third-year Ph.D. student in the [Neuroergonomics Lab](https://neuroergolab.org/) at the [University of Wisconsin–Madison](https://www.wisc.edu/), advised by [Dr. Ranjana Mehta](https://engineering.wisc.edu/directory/profile/ranjana-mehta/). My research interests span neuroergonomics and human factors, with a focus on assistive devices and human–machine interaction systems that integrate mechatronic design, deep learning–based temporal models, and control systems. Currently, I am working on understanding and optimizing astronaut sensorimotor performance under the combined effects of altered gravity and fatigue. 
