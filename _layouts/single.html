@@ -48,52 +48,59 @@ layout: default
         </header>
       {% endunless %}
 
-      <!-- Page content with flex layout -->
-      <section class="page__content" itemprop="text" style="display: flex; align-items: flex-start; gap: 20px; max-width: 1200px;">
+      <!-- Page content -->
+      <section class="page__content" itemprop="text" style="position: relative;">
         
-        <!-- Left column: text -->
-        <div style="flex: 1; min-width: 0;">
-          {{ content }}
+        <!-- Full-width text -->
+        {{ content }}
 
-          <!-- Recommended citation & links -->
-          {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-          {% elsif page.citation and page.paperurl and page.slidesurl %}
-            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-          {% elsif page.citation and page.paperurl and page.bibtexurl %}
-            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-          {% elsif page.citation and page.paperurl %}
-            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-          {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-          {% elsif page.citation and page.slidesurl %}
-            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-          {% elsif page.slidesurl and page.bibtexurl %}
-            <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-          {% elsif page.paperurl and page.bibtexurl %}
-            <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-          {% elsif page.citation and page.bibtexurl %}
-            <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-          {% elsif page.citation %}
-            <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-          {% elsif page.slidesurl %}
-            <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
-          {% elsif page.bibtexurl %}
-            <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-          {% endif %}
-
-          {% if page.link %}
-            <div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
-          {% endif %}
-        </div>
-
-        <!-- Right column: image (homepage only) -->
+        <!-- Right-side image (homepage only) -->
         {% if page.url == "/" %}
-          <div style="flex: 0 0 350px;">
+          <div style="
+            position: absolute;
+            top: 0;
+            right: 0;
+            max-width: 380px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding-left: 20px;
+          ">
             <img src="{{ site.baseurl }}/images/ChatGPT.png" style="width: 100%; height: auto; border-radius: 10px;">
           </div>
         {% endif %}
 
+        <!-- Recommended citation & links -->
+        {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.citation and page.paperurl and page.slidesurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% elsif page.citation and page.paperurl and page.bibtexurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.citation and page.paperurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
+        {% elsif page.citation and page.slidesurl and page.bibtexurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.citation and page.slidesurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% elsif page.slidesurl and page.bibtexurl %}
+          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.paperurl and page.bibtexurl %}
+          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.citation and page.bibtexurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.citation %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+        {% elsif page.slidesurl %}
+          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% elsif page.bibtexurl %}
+          <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% endif %}
+
+        {% if page.link %}
+          <div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
+        {% endif %}
       </section>
 
       <!-- Page footer and meta -->
@@ -133,11 +140,8 @@ layout: default
 <!-- Responsive CSS -->
 <style>
 @media (max-width: 1000px) {
-  .page__content {
-    flex-direction: column;
-  }
-  .page__content div[style*="flex: 0 0 350px"] {
-    display: none; /* hide image on smaller screens */
+  .page__content div[style*="position: absolute"] {
+    display: none; /* hide right-side image on small screens */
   }
 }
 </style>
