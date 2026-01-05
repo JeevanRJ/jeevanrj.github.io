@@ -41,3 +41,25 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+
+/* Two-column layout on homepage */
+.home-two-col{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.home-figure{
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 900px){
+  .home-two-col{
+    grid-template-columns: 1fr;
+  }
+}
