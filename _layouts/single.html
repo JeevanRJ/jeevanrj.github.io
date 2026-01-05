@@ -50,19 +50,21 @@ layout: default
 
       <!-- PAGE CONTENT -->
       {% if page.url == "/" %}
-      <!-- HOME PAGE: use grid to place image in right whitespace -->
-      <section class="page__content" itemprop="text" style="display: grid; grid-template-columns: 1fr 400px; gap: 20px; align-items: start;">
-        
-        <!-- Left column: text (full width) -->
-        <div>
-          {{ content }}
-        </div>
+      <!-- HOME PAGE: text full width, image auto-height in right whitespace -->
+      <section class="page__content" itemprop="text">
+        <div style="display: flex; flex-direction: row; align-items: stretch; gap: 20px;">
 
-        <!-- Right column: image -->
-        <div>
-          <img src="{{ site.baseurl }}/images/ChatGPT.png" style="width: 100%; height: auto; border-radius: 10px;">
-        </div>
+          <!-- Left column: full-width text -->
+          <div style="flex: 1;">
+            {{ content }}
+          </div>
 
+          <!-- Right column: image matches text height -->
+          <div style="width: 380px; flex-shrink: 0; display: flex; align-items: flex-start;">
+            <img src="{{ site.baseurl }}/images/ChatGPT.png" style="width: 100%; height: 100%; object-fit: contain; border-radius: 10px;">
+          </div>
+
+        </div>
       </section>
       {% else %}
       <!-- OTHER PAGES: normal full-width content -->
@@ -72,6 +74,37 @@ layout: default
       {% endif %}
 
       <!-- Recommended citation & links -->
+      {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+      {% elsif page.citation and page.paperurl and page.slidesurl %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+      {% elsif page.citation and page.paperurl and page.bibtexurl %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+      {% elsif page.citation and page.paperurl %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
+      {% elsif page.citation and page.slidesurl and page.bibtexurl %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+      {% elsif page.citation and page.slidesurl %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+      {% elsif page.slidesurl and page.bibtexurl %}
+        <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+      {% elsif page.paperurl and page.bibtexurl %}
+        <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+      {% elsif page.citation and page.bibtexurl %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+      {% elsif page.citation %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+      {% elsif page.slidesurl %}
+        <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+      {% elsif page.bibtexurl %}
+        <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+      {% endif %}
+
+      {% if page.link %}
+        <div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
+      {% endif %}
+
+      <!-- Page footer and meta -->
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
@@ -108,11 +141,11 @@ layout: default
 <!-- Responsive: collapse right image on smaller screens -->
 <style>
 @media (max-width: 1200px) {
-  .page__content {
-    grid-template-columns: 1fr;
+  .page__content > div {
+    flex-direction: column;
   }
   .page__content img {
-    display: none;
+    display: none; /* hide image on small screens */
   }
 }
 </style>
