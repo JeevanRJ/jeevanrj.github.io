@@ -39,17 +39,10 @@ layout: default
       {% endunless %}
 
       <!-- PAGE CONTENT -->
-      <section class="page__content" itemprop="text" style="position: relative;">
+      <section class="page__content" itemprop="text">
         {% if page.url == "/" %}
-          <!-- Homepage layout: text stays full size, image floats on right -->
-          <div>
-            {{ content }}
-          </div>
-
-          <!-- Right-side image -->
-          <div style="position: absolute; top: 0; right: 0; width: 380px;">
-            <img src="{{ site.baseurl }}/images/ChatGPT.png" style="width: 100%; height: auto; border-radius: 10px; display: block;">
-          </div>
+          <!-- Homepage: full text, sidebar handles image -->
+          {{ content }}
         {% else %}
           <!-- Other pages: normal content -->
           {{ content }}
@@ -57,13 +50,30 @@ layout: default
       </section>
 
       <!-- Recommended citation & links -->
-      {% if page.citation or page.paperurl or page.slidesurl or page.bibtexurl %}
-        <div style="margin-top: 20px; font-size: smaller;">
-          {% if page.citation %}Recommended citation: {{ page.citation }}<br>{% endif %}
-          {% if page.paperurl %}<a href="{{ page.paperurl }}">Download Paper</a>{% endif %}
-          {% if page.slidesurl %}{% if page.paperurl %} | {% endif %}<a href="{{ page.slidesurl }}">Download Slides</a>{% endif %}
-          {% if page.bibtexurl %}{% if page.paperurl or page.slidesurl %} | {% endif %}<a href="{{ page.bibtexurl }}">Download Bibtex</a>{% endif %}
-        </div>
+      {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+      {% elsif page.citation and page.paperurl and page.slidesurl %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+      {% elsif page.citation and page.paperurl and page.bibtexurl %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+      {% elsif page.citation and page.paperurl %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
+      {% elsif page.citation and page.slidesurl and page.bibtexurl %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+      {% elsif page.citation and page.slidesurl %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+      {% elsif page.slidesurl and page.bibtexurl %}
+        <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+      {% elsif page.paperurl and page.bibtexurl %}
+        <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+      {% elsif page.citation and page.bibtexurl %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+      {% elsif page.citation %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+      {% elsif page.slidesurl %}
+        <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+      {% elsif page.bibtexurl %}
+        <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
       {% endif %}
 
       {% if page.link %}
@@ -78,7 +88,6 @@ layout: default
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
-
       {% include post_pagination.html %}
     </div>
 
@@ -98,14 +107,3 @@ layout: default
     </div>
   {% endif %}
 </div>
-
-<!-- Responsive fix -->
-<style>
-@media (max-width: 1200px) {
-  .page__content img {
-    position: static !important;
-    width: 100%;
-    margin-top: 20px;
-  }
-}
-</style>
