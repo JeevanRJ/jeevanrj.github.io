@@ -9,7 +9,7 @@ date: 2024-08-05
 
 <!-- Poster thumbnail -->
 <img id="posterThumb"
-     src="{{ site.baseurl }}/images/ASB_poster.jpg"
+     src="{{ site.baseurl }}/images/ASB_poster.png"
      alt="Research poster"
      style="width: 500px; max-width: 100%; display:block; margin: 1.5em auto; cursor: zoom-in;">
      
@@ -24,7 +24,7 @@ date: 2024-08-05
 
   <div class="pz-stage">
     <img id="posterFull"
-         src="{{ site.baseurl }}/images/ASB_poster.jpg"
+         src="{{ site.baseurl }}/images/ASB_poster.png"
          alt="Research poster full size">
   </div>
 </div>
