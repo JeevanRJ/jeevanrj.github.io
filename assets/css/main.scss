@@ -61,7 +61,7 @@
 
 .home-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px; /* right column base width */
+  grid-template-columns: minmax(0, 1fr) 400px; /* right column base width 320px */
   column-gap: 2rem;
   align-items: start;
 }
