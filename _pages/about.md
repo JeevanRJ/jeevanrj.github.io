@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<figure class="ChatGPT-pull">
+<figure class="home-figure-pull">
   <img src="{{ '/images/ChatGPT.png' | relative_url }}" alt="Research overview">
 </figure>
     
