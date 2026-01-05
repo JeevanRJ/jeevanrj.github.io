@@ -49,13 +49,13 @@ layout: default
       {% endunless %}
 
       <!-- Page content -->
-      <section class="page__content" itemprop="text" style="position: relative; max-width: 900px; margin-right: 350px;">
+      <section class="page__content" itemprop="text" style="position: relative; max-width: 800px; margin-right: 400px;">
         {{ content }}
 
-        <!-- Floating right-side image ONLY on homepage -->
+        <!-- Right-side full-height image ONLY on homepage -->
         {% if page.url == "/" %}
-          <div style="position: absolute; top: 150px; right: 20px; width: 300px;">
-            <img src="/images/ChatGPT.png" style="width: 100%; height: auto; border-radius: 10px;">
+          <div style="position: absolute; top: 0; right: 0; width: 380px; height: 100%; display: flex; align-items: center;">
+            <img src="{{ site.baseurl }}/images/ChatGPT.png" style="width: 100%; height: auto; max-height: 100%; border-radius: 10px;">
           </div>
         {% endif %}
 
@@ -89,7 +89,6 @@ layout: default
         {% if page.link %}
           <div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
         {% endif %}
-
       </section>
 
       <!-- Page footer and meta -->
@@ -125,3 +124,15 @@ layout: default
     </div>
   {% endif %}
 </div>
+
+<!-- Responsive CSS -->
+<style>
+@media (max-width: 1000px) {
+  .page__content div[style*="position: absolute"] {
+    display: none; /* hide image on smaller screens */
+  }
+  .page__content {
+    margin-right: 0;
+  }
+}
+</style>
