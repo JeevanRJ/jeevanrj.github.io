@@ -44,33 +44,55 @@
 
 
 /* =========================================================
-   Homepage right-side image (pull into the empty margin)
+   Homepage layout: text + image on the right, pushed into
+   the empty right-side area (your red-arrow region).
+
    Use in about.md:
 
-   <figure class="home-figure-pull">
-     <img src="{{ '/images/ChatGPT.png' | relative_url }}" alt="Research overview">
-   </figure>
+   <div class="home-layout">
+     <div class="home-text" markdown="1">
+       ...your markdown text...
+     </div>
+     <div class="home-graphic">
+       <img src="{{ '/images/homepageImage_casendra.png' | relative_url }}" alt="Research overview">
+     </div>
+   </div>
    ========================================================= */
 
-.home-figure-pull {
-  float: right;
-  width: 400px;                 /* size of the image block */
-  margin: 0 0 1.2rem 2rem;       /* spacing: bottom, left gap from text */
-  transform: translateX(150px);  /* push into the empty right-side area */
+.home-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px; /* right column base width */
+  column-gap: 2rem;
+  align-items: start;
 }
 
-.home-figure-pull img {
-  width: 100%;
+/* Push image into the blank area to the right */
+.home-graphic {
+  justify-self: end;
+  margin-right: -260px; /* more negative = further right */
+}
+
+.home-graphic img {
+  width: 320px;         /* change this to resize (e.g., 260px, 280px, 360px) */
+  max-width: 100%;
   height: auto;
   border-radius: 14px;
+  display: block;
 }
 
-/* Mobile: stack image above text, no right push */
+/* Mobile: stack */
 @media (max-width: 900px) {
-  .home-figure-pull {
-    float: none;
+  .home-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .home-graphic {
+    margin-right: 0;
+    justify-self: start;
+    margin-top: 1rem;
+  }
+
+  .home-graphic img {
     width: 100%;
-    margin: 0 0 1rem 0;
-    transform: none;
   }
 }
