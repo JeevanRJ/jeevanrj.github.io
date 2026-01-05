@@ -5,7 +5,7 @@
  * This file controls what is imported from /_sass
  *
  * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -43,23 +43,34 @@
 ;
 
 
-/* Two-column layout on homepage */
-.home-two-col{
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 2rem;
-  align-items: start;
+/* =========================================================
+   Homepage right-side image (pull into the empty margin)
+   Use in about.md:
+
+   <figure class="home-figure-pull">
+     <img src="{{ '/images/ChatGPT.png' | relative_url }}" alt="Research overview">
+   </figure>
+   ========================================================= */
+
+.home-figure-pull {
+  float: right;
+  width: 360px;                 /* size of the image block */
+  margin: 0 0 1.2rem 2rem;       /* spacing: bottom, left gap from text */
+  transform: translateX(150px);  /* push into the empty right-side area */
 }
 
-.home-figure{
+.home-figure-pull img {
   width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 14px;
 }
 
-/* Responsive: stack on mobile */
-@media (max-width: 900px){
-  .home-two-col{
-    grid-template-columns: 1fr;
+/* Mobile: stack image above text, no right push */
+@media (max-width: 900px) {
+  .home-figure-pull {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem 0;
+    transform: none;
   }
 }
