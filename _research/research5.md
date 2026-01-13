@@ -15,7 +15,6 @@ To address this question, we conducted human-subject experiments while collectin
      alt="Research figure"
      style="width: 400px; max-width: 100%; display: block; margin: 1.5em auto;">
 
-
 ### Data Collection and Synchronization {#data-collection-and-synchronization}
 
 Multimodal data streams were synchronized using Lab Streaming Layer (LSL). Devices were wirelessly networked to dedicated acquisition systems, with automated error-checking implemented to support robust, high-fidelity data collection. 
